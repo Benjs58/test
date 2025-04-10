@@ -1,0 +1,45 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(48, 251, 251);
+    background-image: url("https://cdn.shopify.com/s/files/1/0029/5521/4883/files/Zermatt3_1000x1000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    border: 5px solid red;
+    padding: 5px;
+}
+a{
+    color: white;
+}
+
+.rizz {
+    font-family: chiller;
+    color: hotpink;
+    border: 5px dotted yellow;
+    font-size: 600%;
+    font-weight: bolder;
+    background-color: limegreen;
+}
+
+.rizz:hover {
+    font-size: 700%;
+    color: red;
+    border: 7px solid brown;
+}
+
+li:hover {
+    text-decoration: underline;
+    background-color: rgb(141, 141, 141);
+}
+
+li {
+    width: fit-content
+}

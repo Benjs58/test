@@ -1,0 +1,36 @@
+.common{
+    font-family: fantasy;
+    /* border: 2px solid red; */
+    position: absolute;
+
+}
+.nav{
+    position: relative;
+    float: right;
+    font-size: 95%;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 50%;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0.5);
+    color: white;
+}
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: -1;
+}
+.content{
+    top: 67px ;
+    left: 10%;
+    right: 10%;
+    bottom: 30px;
+    background-color: rgba(3, 221, 225, 0.5);
+}
